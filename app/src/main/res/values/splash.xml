@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SplashScreenBase" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/bg_splash</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo_splash</item>
+        <item name="postSplashScreenTheme">@style/NoActionBar</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/dark_purple</item>
+    </style>
+</resources>

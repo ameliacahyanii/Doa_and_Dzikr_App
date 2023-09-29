@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_item"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_purple"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/title_main"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!--section fitur artikel-->
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/vp_artikel"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="16dp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_slider_dots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"/>
+        <!--end section artikel-->
+
+        <!--section fitur dzikir dan doa-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_item_purple"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:elevation="40dp">
+
+                <TextView
+                    android:id="@+id/tv_fitur_doa_dan_dzikir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/txt_judul_fitur"
+                    android:textColor="@color/dark_purple"
+                    android:fontFamily="@font/lato_black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <!--section sunnah qauliyah dzikir dan doa shalat-->
+                <LinearLayout
+                    android:id="@+id/ll_dzikir_doa_solat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_sunnah_qauliyah"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="horizontal"
+                    android:padding="14dp"
+                    android:elevation="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:gravity="left|bottom"
+                        android:text="@string/txt_sunnah_qauliyah"
+                        android:textColor="@color/dark_purple"
+                        android:fontFamily="@font/lato_black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+                <!--end section sunah qauliyah-->
+
+                <!--section dzikir setiap saat-->
+                <LinearLayout
+                    android:id="@+id/ll_dzikir_setiap_saat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/bg_dzikir_setiap_saat"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:elevation="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:gravity="left|bottom"
+                        android:text="@string/txt_dzikir_setiap_saat"
+                        android:textColor="@color/dark_purple"
+                        android:fontFamily="@font/lato_black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+                <!--end section dzikir setiap saat-->
+
+                <!--section dzikir dan doa harian-->
+                <LinearLayout
+                    android:id="@+id/ll_dzikir_dan_doa_harian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_dzikir_dan_doa_harian"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:elevation="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:gravity="left|bottom"
+                        android:text="@string/txt_dzikir_doa_harian"
+                        android:textColor="@color/dark_purple"
+                        android:fontFamily="@font/lato_black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+                <!--end section dzikir dan doa harian-->
+
+                <!--section dzikir pagi dan petang-->
+                <LinearLayout
+                    android:id="@+id/ll_dzikir_pagi_petang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_dzikir_pagi_petang"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:elevation="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:gravity="left|bottom"
+                        android:text="@string/txt_dzikir_pagi_petang"
+                        android:textColor="@color/dark_purple"
+                        android:fontFamily="@font/lato_black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+                <!--end section dzikir pagi dan petang-->
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
+
