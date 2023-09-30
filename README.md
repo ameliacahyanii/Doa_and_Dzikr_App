@@ -5,8 +5,9 @@ These apps serve as digital tools for users to engage in their religious rituals
 
 Source code of my modified Doa and Dzikr App project by User Yoenas. First Android class project of RPL IDN Boarding School Akhwat 2023. 
 
-![Uploading Mock Up Doa & Dzikr App_Amel.png…]()
-![Uploading Poster_Doa_&_Dzikr_App.png…]()
+![Mock Up Doa   Dzikr App_Amel](https://github.com/ameliacahyanii/Doa_and_Dzikr_App/assets/110214422/522aa08a-80ed-4991-9a71-8d966f6c0fdf)
+
+![Poster_Doa_ _Dzikr_App](https://github.com/ameliacahyanii/Doa_and_Dzikr_App/assets/110214422/9b5e9668-8b14-45b8-8513-5335513d4c52)
 
 # Features
 The Android apps let you: 
