@@ -1,5 +1,5 @@
 # 📱Doa & Dzikr App
-Doa and Dzikr app is a mobile application designed, particularly for Muslims, in their spiritual practices. It provides a convenient and organized platform for accessing prayers (Doa) and remembrance of Allah (Dzikir). 
+Doa and Dzikr App is a mobile application designed, particularly for Muslims, in their spiritual practices. It provides a convenient and organized platform for accessing prayers (Doa) and remembrance of Allah (Dzikir). 
 
 These apps serve as digital tools for users to engage in their religious rituals and connect with their faith more easily. 
 
